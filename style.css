@@ -1,0 +1,163 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:20px;
+    font-weight: 600;
+    background-color: #1f1f1f;
+    color: white;
+}
+.head-container{
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 70px;
+    
+}
+#login, #explore, #rent{
+    text-align: center;
+}
+#search-bar{
+    width: 900px;
+    margin-right: 20px;
+}
+#search{
+    padding: 10px;
+    border-radius: 8px;
+    width:  100%;
+    color:black;
+}
+.round {
+    flex: 3;
+    position: relative;
+    padding: 5px;
+    border-radius: 8px;
+    width: 50%;
+    background-color: #262626;
+    height: 25px;
+    margin-left: 5px;
+}
+.block{
+    margin: 20px;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #262626;
+}
+#aboutus, .forent{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+.icon-details {
+    display: flex;
+    margin: 20px;
+}
+.text{
+    margin: 40px 20px;
+    width: 846px;
+height: 53px;
+left: 224px;
+top: 322px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+
+color: #C4C4C4;
+}
+.clock{
+    width: min-content;
+    margin-right: 100px;
+    justify-content: center;
+}
+.categories{
+    padding: 20px;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.grid-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    
+}
+@media (min-width: 600px) {
+    .grid-container { grid-template-columns: repeat(2, 1fr); }
+  }
+@media (min-width: 900px) {
+    .grid-container { grid-template-columns: repeat(3, 1fr); }
+  }
+  
+
+
+  
+.grid-item {
+    border-radius: 8px;
+    border: 3px solid #262626;
+    margin: 10px;
+    padding: 15px;
+   
+  }
+  .grid-text{
+    font-size: 30px;
+  }
+  .grid-text-2{
+    padding: 5px;
+    font-size: 15px;
+    word-wrap: break-word;
+    
+  }
+  .text-2{
+    word-break: keep-all;
+    font-weight: 600;
+    font-size: 18px;
+line-height: 27px;
+/* or 175% */
+
+
+color: rgba(255, 255, 255, 0.8);
+
+  }
+  .know-more{
+    margin-top: 50px;;
+    margin-left: 150px;
+  }
+
+.know-more {}
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu{
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+/* or 175% */
+
+
+color: rgba(255, 255, 255, 0.8);
+  }
+  .name{
+    margin-left: 30px;
+    width: 335px;
+height: 53px;
+left: 701px;
+top: 1920px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+
+color: #FFFFFF;
+  }
